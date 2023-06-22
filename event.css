@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+   
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background:url("event.webp");
+    
+    padding-top: 30px;
+    min-height: 70%;
+    border-bottom: #e8491d 3px solid;
+}
+header h1{
+    margin-bottom: 15px;
+    width:;
+}
+header a{
+    color: #ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #logo{
+   float: left;
+
+} 
+header nav{
+   float: right;
+   margin-top: 10px;
+}
+
+
+/* all header css is end..... here  */
+
+
+#section-case{
+    background:url("event.webp") ;
+    background-position: cover;
+    background-repeat: no-repeat; 
+  height:auto;
+  width:100%;
+   text-align: center;
+   color: #ffffff;
+
+}
+#section-case h1{
+   margin-top: 100px;
+   margin-bottom: 204px;
+   font-size: 65px;
+}
+.event{
+   border: 2px solid red;
+   width: auto;
+   border-radius: 8px;
+}
+.event{
+
+background: linear-gradient(135deg, orange 60%, cyan);
+}
+#section-case p{
+   font-size: 20px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 300;
+    font-size: 62.5%; */
+    color:#444;
+    background-color:#041429;
+    flex: wrap;
+
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex: wrap;
+}
+.card{
+    background-color: rgba(240,234, 234, 0.42);
+    box-shadow: 0 0 0.9375em rgba(0,0,0, 0.219);
+    width: 900px;
+    min-height: 400px;
+    border-radius: 4px;
+    display: flex;
+}
+.hero-card{
+    flex: 0  0 50%;
+    position: relative;
+    /* border: 4px solid fuchsia; */
+}
+
+.card-img{
+    display: block;
+    width: 100%;
+    min-height: 400px;
+    padding-top: 40px;
+    border: #ffff 3px solid;
+}
+
+
+
+.card-middle{
+    position: absolute;
+    bottom: 82%;
+    left: 50%; 
+    transform: translate(-50%, -56%);
+  
+
+} 
+ .card-middle-text{
+    background-color: rgb(167, 20, 20);
+    color: white;
+    font-size: 14.5px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 11px 140px;
+    width: 444px;
+    box-shadow:0 0 0.9375em rgba(0,0,0, 0.219); 
+} 
+
+.card-content{
+    flex: 1;
+    padding: 35px 35px 25px 35px; 
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+.card-price{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 52px;
+    margin-bottom: 8px;
+    color: #ffff;
+
+}
+
+.card-adrees{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.card-buttom{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.card-btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff;
+
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    transition: border-buttom .4s;
+}
+.card-btn:hover{
+    border-bottom: 1px solid red;
+    background-color: yellowgreen;
+}
+.card-btn:not(:last-child){
+    margin-right: 20px;
+}
